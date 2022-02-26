@@ -4,7 +4,7 @@ var Counter = artifacts.require("Counter");
 
 contract("Counter", function(accounts) {
     var _instance;
-    if ("Counter", function(){
+    it ("Counter", function(){
         return Counter.deployed()
         .then(function(instance){
             _instance = instance;
