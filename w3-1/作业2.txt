@@ -1,0 +1,10 @@
+* 编写⼀个Vault 合约： 
+合约地址    0x619793559778d2a3E977fE6E07067B1067522Ee3
+合约创建Tx  https://goerli.etherscan.io/tx/0xd1133dcc05bff173931cb3bee575b926276dd3cc5434fa373bc130ced8de9035
+  * 编写deposite ⽅法，实现 ERC20 存⼊ Vault，并记录每个⽤户存款⾦额 ， ⽤从前端调⽤（Approve，transferFrom） 
+    approve tx https://goerli.etherscan.io/tx/0xd743a42a96366cbf3da2d88f1ef1c5f56c1b71ed3b3227dfaef0cb844739f921
+    deposit tx https://goerli.etherscan.io/tx/0xd087b1178d740b777882dc98d04f05f93a3d138b74dbe9a3d1214fc81a946814
+  * 编写 withdraw ⽅法，提取⽤户⾃⼰的存款 （前端调⽤）
+  withdraw tx  https://goerli.etherscan.io/tx/0x83f49f614a71b01d9b47308a17b32f6135bef5617c70a166ad56b0b9eb2c40b5
+  * 前端显示⽤户存款⾦额
+  balanceOf方法

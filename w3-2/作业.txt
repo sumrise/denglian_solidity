@@ -1,0 +1,7 @@
+W3_2作业
+* 发行一个 ERC721 Token
+地址:   0xedbdA3e45F0F7471b7Bdf722348cD1d6544b7782
+tx:    https://goerli.etherscan.io/tx/0x9ad980c591f70f474f00f13a389fbba473f88765820a47611c64db5da0018436
+* 使用 ether.js 解析 ERC721 转账事件(加分项：记录到数据库中，可方便查询用户持有的所有NFT)
+scripts/myerc721_listen_event.js
+* (或)使用 TheGraph 解析 ERC721 转账事件
