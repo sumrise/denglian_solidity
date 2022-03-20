@@ -1,0 +1,13 @@
+
+* 部署自己的 ERC20 合约 MyToken
+0xF76795A7aF35365e3Eecd8A8070dc2A89F581A99
+* 编写合约 MyTokenMarket 实现：
+* AddLiquidity():函数内部调用 UniswapV2Router 添加 MyToken 与 ETH 的流动性
+https://ropsten.etherscan.io/tx/0x36e88cfeda12afc567d53173171d1901082c66946987a8dc589f7dde92af242c
+   * buyToken()：用户可调用该函数实现购买 MyToken
+https://ropsten.etherscan.io/tx/0xf54efde3b39a7c6639fccbc0070ffbf1e7626d79d080dd52a27d844799ab461a
+W4_2作业
+* 在上一次作业的基础上：
+   * 完成代币兑换后，直接质押 MasterChef
+https://ropsten.etherscan.io/tx/0x485153a7aa146de0554ee051180318512f699ba7a1666322c653dcc6c725fc44
+   * withdraw():从 MasterChef 提取 Token 方法
