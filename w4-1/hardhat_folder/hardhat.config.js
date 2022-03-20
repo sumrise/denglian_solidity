@@ -30,21 +30,21 @@ module.exports = {
       chainId:31337
     },
     goerli: {
-      url: 'https://goerli.infura.io/v3/07a25b92c3cd458d8d94f92aa5877a21',
+      url: 'https://goerli.infura.io/v3/',
       accounts: {
         mnemonic: mnemonic,
       },
       chainId: 5,
     },
     rinkeby:{
-      url:'https://rinkeby.infura.io/v3/07a25b92c3cd458d8d94f92aa5877a21',
+      url:'https://rinkeby.infura.io/v3/',
       accounts:{
         mnemonic: mnemonic,
       },
       chainId:4
     },
     ropsten:{
-      url:'https://ropsten.infura.io/v3/07a25b92c3cd458d8d94f92aa5877a21',
+      url:'https://ropsten.infura.io/v3/',
       accounts:{
         mnemonic: mnemonic,
       },
@@ -52,6 +52,6 @@ module.exports = {
     }
   },
   etherscan:{
-    apiKey: "TQPEF3Y7WD6RA52HTY5F2E26I1ZZ4CX6YA"
+    apiKey: ""
   }
 };
