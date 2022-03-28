@@ -29,6 +29,9 @@ module.exports = {
   solidity: {
     compilers:[
       {
+        version:"0.8.4",
+      },
+      {
         version:"0.8.0",
       },
       {
@@ -52,7 +55,7 @@ module.exports = {
       chainId: 5,
     },
     rinkeby:{
-      url:'https://rinkeby.infura.io/v3/07a25b92c3cd458d8d94f92aa5877a21',
+      url:'https://rinkeby.infura.io/v3/',
       accounts:{
         mnemonic: mnemonic,
       },
@@ -60,6 +63,6 @@ module.exports = {
     },
   },
   etherscan:{
-    apiKey: "TQPEF3Y7WD6RA52HTY5F2E26I1ZZ4CX6YA"
+    apiKey: ""
   }
 };
